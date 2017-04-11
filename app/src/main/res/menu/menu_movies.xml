@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_upcoming_movies"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="@string/title_upcoming_movies"/>
+        <item
+            android:id="@+id/nav_now_playing_movies"
+            android:icon="@drawable/ic_play_circle_filled_black_24dp"
+            android:title="@string/title_now_playing_movies"/>
+        <item
+            android:id="@+id/nav_popular_movies"
+            android:icon="@drawable/ic_movie_filter_black_24dp"
+            android:title="@string/title_popular_movies"/>
+
+        <item
+            android:id="@+id/nav_favorited_movies"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/title_favorites_movies"/>
+
+        <item
+            android:id="@+id/nav_lists"
+            android:title="@string/special_lists">
+            <menu>
+                <item
+                    android:id="@+id/nav_list_marvel_universe"
+                    android:icon="@drawable/ic_play_circle_outline_black_24dp"
+                    android:title="@string/marvel_universe_title"/>
+
+                <item
+                    android:id="@+id/nav_list_dc_universe"
+                    android:icon="@drawable/ic_play_circle_outline_black_24dp"
+                    android:title="@string/dc_universe_title"/>
+
+                <item
+                    android:id="@+id/nav_list_top_grossing"
+                    android:icon="@drawable/ic_play_circle_outline_black_24dp"
+                    android:title="@string/top_grossing_movies_title"/>
+
+                <item
+                    android:id="@+id/nav_list_peter_jackson"
+                    android:icon="@drawable/ic_play_circle_outline_black_24dp"
+                    android:title="@string/peter_jackson_movies_title"/>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

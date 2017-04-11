@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Filmes do Ano</string>
+    <string name="action_settings">Configurações</string>
+    <string name="api_language">pt-BR</string>
+    <string name="no_movies_found">Nenhum filme encontrado</string>
+
+    <string name="title_favorites_movies">Meus Filmes Favoritos</string>
+    <string name="title_now_playing_movies">Filmes Recentes</string>
+
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="main_categories">Principais Categorias</string>
+    <string name="action_to_undone">DESFAZER</string>
+    <string name="action_undoned">Desfeito!</string>
+    <string name="action_saved_on_favorites">Salvo nos favoritos!</string>
+    <string name="movie_already_added_to_favorites">Remover de seus favoritos?</string>
+    <string name="watch_trailer">ASSISTA AO TRAILER</string>
+    <string name="others_trailers">Outros trailers</string>
+    <string name="should_install_youtube_app">Você deve ter o aplicativo do Youtube para assistir aos trailers</string>
+    <string name="main_actors_title">Principais atores</string>
+    <string name="action_remove">Remover</string>
+    <string name="action_removed">Removido!</string>
+    <string name="no_trailer_associated">Não há trailer salvo para esse filme.</string>
+    <string name="marketing_campaign">Trailers e muito entretenimento!</string>
+    <string name="help_first_access">Primeira vez aqui?</string>
+    <string name="help_first_access_subtitle">+ Clique para ver mais detalhes\n+ Mova para a direita para ver o trailer</string>
+    <string name="help_favorites_subtitle">+ Mova para a direita para ver o trailer\n+ Mova para a esquerda para remover</string>
+    <string name="help_add_fav_movies">Experimente adicionar os filmes que você gosta aos favoritos!</string>
+    <string name="title_popular_movies">Filmes Populares</string>
+    <string name="title_upcoming_movies">Breve nos Cinemas</string>
+    <string name="device_no_internet">Você não está conectado à internet</string>
+    <string name="tmdb_credits_text">Este produto utiliza a API TMDb mas não é sancionado ou certificado pela TMDb.</string>
+    <string name="title_credits">Créditos</string>
+    <string name="about">Sobre</string>
+    <string name="help">Ajuda</string>
+    <string name="helper_enabled">Ajuda interativa habilitada</string>
+    <string name="user_general_error">Fuuu, ocorreu um erro, mas não desista, tente carregar a tela novamente</string>
+    <string name="marvel_universe_title">Universo Marvel</string>
+    <string name="dc_universe_title">Universo DC</string>
+    <string name="special_lists">Especiais</string>
+    <string name="top_grossing_movies_title">Sucessos de Bilheteria</string>
+    <string name="peter_jackson_movies_title">Filmes do Peter Jackson</string>
+</resources>
