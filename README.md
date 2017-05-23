@@ -96,3 +96,29 @@ Não podemos nos esquecer do bom e velho padrão _ViewHolder_ que **deve** ser u
 > O Facebook, o WhatsApp e o SnapChat podem usar memória à vontade do celular do usário, mas o seu app não tão glamoroso não pode...Se ele ver o seu app entre os que mais consomem memória (o que é bem fácil de verificar) você pode ter menos um usuário para o seu app.
 
 &nbsp;
+
+## E o que mais?
+
+Tem algumas coisas bacanas que ainda não foram feitas nesse app (_um dia quem sabe..._) mas que são fundamentais para ter um aplicativo profissional, que viabilize uma manutenção do código-fonte sem dores de cabeça e que alcance bons indíces de retenção e engajamento de usuários.
+
+### Estratégicamente falando...
+
+Antes de "pôr a mão na massa", que tal prototipar? Escolher uma boa ferramenta para criação de _Wireframes_ e _Mockups_ irão ajudá-lo a criar provas de conceito do seu app antes de começar a sua implementação, e com isso você pode fazer **Testes A/B** com alguns [segmentos mapeados de usuários](http://startupsorocaba.com/tag/value-proposition-canvas/){:target="_blank"}, por exemplo, colher feedbacks e fazer melhorias na UX do seu app antes de iniciar o processo custoso ($$$) de desenvolvimento.
+
+Traçar planos para engajamento de usuários, entender um pouco sobre taxas de rejeição (_bounce rates_) e conversão são fundamentais para o marketing do seu app - _você não quer desenvolver um app com uma performance monstruosa, que não tenha erros, mas que seja instalado apenas por amigos e familiares_. Insumo para isso já temos com a plataforma do _Firebase_ e um bom ponto da partida é entender [as principais métricas de Marketing Digital para seu aplicativo](http://resultadosdigitais.com.br/blog/metricas-de-marketing-digital-para-aplicativos-mobile/){:target="_blank"}
+
+&nbsp;
+
+
+### Técnicamente falando...
+
+Trabalhar com algum **padrão MVP** no Android é fundamental para uma boa manutenibilidade do app, os artigos [MVP no Android - Tin Megali](http://www.tinmegali.com/pt/model-view-presenter-mvp-no-android-introducao/){:target="_blank"} e o [MVP Android - Vinícius Thiengo](http://www.thiengo.com.br/mvp-android){:target="_blank"} são excelentes referências no assunto.
+
+Existem muitas bibliotecas que auxiliam no desenvolvimento Android, nesse app não foi utilizado algumas que vale o estudo: 
+- [Retrofit](http://square.github.io/retrofit/){:target="_blank"} - É extremamente simples, veloz e eficiente para realizar requisições HTTP à partir do seu app e possui uma excelente documentação, muito utilizado para comunicação com apis REST.
+- [Dagger 2](https://github.com/google/dagger){:target="_blank"} - Biblioteca que possibilita Injeção de Dependência no Android. Para saber mais sobre Dagger 2 e os conceitos de Inversão de Dependência e Injeção de Dependência, recomendo uma lida nesse artigo do [Introdução ao Dagger 2](https://medium.com/android-dev-br/introdu%C3%A7%C3%A3o-ao-dagger-2-56d193118a6c){:target="_blank"} 
+- [Butter Knife](http://jakewharton.github.io/butterknife/){:target="_blank"} - Focado na produtividade, essa biblioteca faz uso de *Annotations* para injeção de *Views* em componentes do Android, o que possibilita escrever código de maneira muita mais sucinta em vários cenários, evitando vários códigos *Boiler Plate*, como o `activity.subtitle = (android.widget.TextView) activity.findViewById(R.id.subtitle);` por exemplo.
+
+&nbsp;
+
+[![Kotlin](./Kotlin-logo.png)](http://kotlinlang.org/){: .image-left target="_blank"}  O time do Android, no keynote do Google I/O 2017 anunciou [suporte oficial ao Kotlin](https://blog.jetbrains.com/kotlin/2017/05/kotlin-on-android-now-official/){:target="_blank"}, o que é uma motivação enorme para quem tem interesse nessa nova, moderna e poderosa linguagem de desenvolvimento. Kotlin traz muitas vantagens em relação à sintaxe verbosa do Java e evita vários erros que acontecem em *runtime* no Java (como os famosos *NullPointerExceptions*). Kotlin é *Null Safety* (menos bugs no seu app), **extremamente produtiva** e possui uma curtíssima curva de aprendizado, além de possuir uma excelente (e interativa) documentação no [site oficial](http://kotlinlang.org/docs/reference/){:target="_blank"}.
